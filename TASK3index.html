@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 Project</title>
+  <link rel="stylesheet" href="TASK3style.css">
+</head>
+<body>
+  <header>
+    <h1>Responsive Web with JS Features</h1>
+  </header>
+
+  <main>
+    <!-- Responsive Quiz -->
+    <section class="box">
+      <h2>📝 Quiz</h2>
+      <div id="quiz">
+        <p id="question">Question will appear here</p>
+        <div id="options">
+          <button class="option"></button>
+          <button class="option"></button>
+          <button class="option"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Carousel -->
+    <section class="box">
+      <h2>🖼️ Image Carousel</h2>
+      <div class="carousel">
+        <img id="slide" src="https://via.placeholder.com/300" alt="carousel image">
+        <br>
+        <button onclick="next()">Next</button>
+      </div>
+    </section>
+
+    <!-- Fetch API -->
+    <section class="box">
+      <h2>🌐 Get a Random Joke</h2>
+      <div id="joke-box">
+        <button onclick="getJoke()">Get Joke</button>
+        <p id="joke-text">Click to get a joke!</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="TASK3script.js"></script>
+</body>
+</html>
